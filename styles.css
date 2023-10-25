@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: rgb(207, 228, 235);
+    ;   
+}
+
+.container{
+    width: 550px;
+    height: 550px;
+    max-width: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titile{
+    position: relative;
+    /* border: 1px solid black; */
+    width: 200px;
+    text-align: center;
+}
+
+.titile h2{
+    padding: 5px 0px;
+}
+
+.underline{
+    width: 40%;
+    height: 3px;
+    background-color: rgb(61, 176, 214);;
+    position: absolute;
+    left: 32%;
+}
+
+article{
+    border-radius: 10px;
+    /* margin: 30px; */
+    background-color:aliceblue ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    margin-top: 20px;
+}
+article .img_container{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(74, 181, 214);
+    position: relative;
+}
+
+article .img_container img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    bottom: -3px;
+}
+
+#person_name{
+    margin: 20px 0px 10px 0px;
+}
+
+#job{
+    color: rgb(74, 181, 214);;
+    margin-bottom: 6px;
+}
+
+.desc{
+    text-align: center;
+}
+.btn_conatiner{
+    /* border: 1px solid black; */
+    margin: 15px;
+    width: 80px;
+    text-align: center;
+}
+
+.btn_prev, .btn_next{
+    color: rgb(74, 181, 214);
+    font-weight: 900;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.surprise_btn{
+    outline: 1px solid black;
+    padding: 8px 12px;
+    color: rgb(74, 181, 214);
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 4px;
+    border: none;
+
+}
+
+.surprise_btn:hover{
+    background-color: rgb(74, 181, 214);
+    color: #fff;
+    outline: 1px solid #000;
+
+}
