@@ -97,9 +97,10 @@ article .img_container img{
 
 .btn_prev, .btn_next{
     color: rgb(74, 181, 214);
-    font-weight: 900;
     font-size: 1.5rem;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 .surprise_btn{
